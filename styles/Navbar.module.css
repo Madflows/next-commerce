@@ -1,0 +1,15 @@
+.nav {
+    @apply w-full p-6 border-b-2 border-gray-200 flex items-center justify-between;
+}
+
+.nav h1{
+    @apply text-3xl font-bold;
+}
+
+.nav ul{
+    @apply list-none gap-3 items-center justify-center hidden md:flex;
+}
+
+.nav ul li{
+    @apply inline-block decoration-wavy decoration-slate-900 text-lg;
+}
